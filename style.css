@@ -1,0 +1,200 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.discordapp.com/attachments/1201960871782252584/1202993463906406500/IMG_0546.jpg?ex=65cf79f8&is=65bd04f8&hm=cdf74a0ebcda9eed4f9bc08bb61fd7f7982d4e7aba7cb4fc8c3012c481d178ed&');
+  background-size: cover;
+  background-position: center center;
+}
+
+header {
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+
+header h2 {
+  margin: 0;
+  color: #000;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 1;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-box {
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-trigger {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+select {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.dropdown-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.dropdown-button:hover {
+  background-color: #000;
+}
+
+.entry-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.entry-button:hover {
+  background-color: #121212;
+}
+
+.dropdown-label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.discordapp.com/attachments/1202302524888207441/1203001149397934090/zlLfpLY.png?ex=65cf8120&is=65bd0c20&hm=9dba16ec93859724d3f571139fa68a373277c32d\723cc0dec9d4708f4ccf9bbb&');
+  background-size: cover;
+  background-position: center center;
+}
+
+header {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+header h1 {
+  margin: 0;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 1;
+}
+
+.profile {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.profile p {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.profile:nth-child(odd),
+.profile:nth-child(even) {
+  transform: scale(1);
+}
+
+.profile:hover {
+  transform: scale(1.3);
+}
+
+.founder {
+  color: #460000;
+  font-weight: bold;
+}
+
+.cofounder {
+  color: #473172;
+  font-weight: bold;
+}
