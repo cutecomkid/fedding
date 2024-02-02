@@ -4,6 +4,7 @@ html, body {
   height: 100%;
 }
 
+/*-- index.html css --*/
 body {
   font-family: 'Arial', sans-serif;
   background-color: #000;
@@ -16,7 +17,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url('https://cdn.discordapp.com/attachments/1201960871782252584/1202993463906406500/IMG_0546.jpg?ex=65cf79f8&is=65bd04f8&hm=cdf74a0ebcda9eed4f9bc08bb61fd7f7982d4e7aba7cb4fc8c3012c481d178ed&');
+  background-image: url('https://cdn.discordapp.com/attachments/1202827782933970984/1203086567594401812/82299B11-10B9-4726-8D65-33C4769FB7E9.jpg?ex=65cfd0ad&is=65bd5bad&hm=1ea602b015cdae0fb5977ea5b1ff3c86e06ade0caa627ef8bcf2670e440554c7&');
   background-size: cover;
   background-position: center center;
 }
@@ -28,7 +29,7 @@ header {
   z-index: 1;
 }
 
-header h2 {
+header h1 {
   margin: 0;
   color: #000;
 }
@@ -124,6 +125,7 @@ select {
   margin-right: 5px;
 }
 
+/*-- staff.html css --*/
 body {
   font-family: 'Arial', sans-serif;
   background-color: #000;
@@ -131,35 +133,30 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .background {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url('https://cdn.discordapp.com/attachments/1202302524888207441/1203001149397934090/zlLfpLY.png?ex=65cf8120&is=65bd0c20&hm=9dba16ec93859724d3f571139fa68a373277c32d\723cc0dec9d4708f4ccf9bbb&');
+  background-image: url('https://cdn.discordapp.com/attachments/1202302524888207441/1203001149397934090/zlLfpLY.png?ex=65cf8120&is=65bd0c20&hm=\723cc0dec9d9dba16ec93859724d3f571139fa68a373277c32d4708f4ccf9bbb&');
   background-size: cover;
   background-position: center center;
 }
-
 header {
   text-align: center;
   padding-top: 10px;
   margin-bottom: 20px;
   z-index: 1;
 }
-
-header h1 {
+header h2 {
   margin: 0;
-  color: #fff;
+  color: #c7ac00;
 }
-
 main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   z-index: 1;
 }
-
 .profile {
   flex: 0 0 auto;
   display: flex;
@@ -167,34 +164,41 @@ main {
   align-items: center;
   margin: 10px;
 }
-
 .profile img {
   border-radius: 50%;
   width: 100px;
   height: 100px;
   object-fit: cover;
 }
-
 .profile p {
   color: #fff;
   margin-top: 10px;
 }
-
 .profile:nth-child(odd),
 .profile:nth-child(even) {
   transform: scale(1);
 }
-
 .profile:hover {
   transform: scale(1.3);
 }
-
-.founder {
+.profile h3 {
+  margin: 0;
   color: #460000;
-  font-weight: bold;
 }
-
-.cofounder {
+.profile h4 {
+  margin: 0;
+  color: #201e54;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
   color: #473172;
   font-weight: bold;
 }
