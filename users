@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sold your soul to the devil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="background"
+    style="background-image: url('https://cdn.discordapp.com/attachments/1202302524888207441/1203001149397934090/zlLfpLY.png?ex=65cf8120&is=65bd0c20&hm=9dba16ec93859724d3f571139fa68a373277c32d723cc0dec9d4708f4ccf9bbb&'); background-size: cover; bacground-position: center center;">
+    
+    
+    <header>
+      <h1>carve</h1>
+    </header>
+
+
+    <main>
+      <div class="profile">
+        <img
+          src="https://cdn.discordapp.com/attachments/1202302524888207441/1202999312276127845/gore.png?ex=65cf7f6a&is=65bd0a6a&hm=a08ed82b532ca4251ea25600ce6cde635f7e59e7453b7b2651ff476eecfe9d83&"
+          alt="Profile Picture 1">
+        <p>ego</p>
+        <div class="founder">
+          founder
+        </div>
+      </div>
+      <div class="profile">
+        <img
+          src="https://cdn.discordapp.com/attachments/1202033611000254526/1202732116677365831/B9B20EE8-6599-4A5C-9C12-FBBCEE3EA19F.jpg?ex=65ce8692&is=65bc1192&hm=1deb016e52cefaa63b3e6db670899d0bacc98240a74baeb1ad6e748bf27677c0&"
+          alt="Profile Picture 2">
+        <p>kiri</p>
+        <div class="cofounder">
+          cofounder
+        </div>
+      </div>
+      <!-- add more here -->
+
+      <!-- Add your music player or any other content here -->
+    </main>
+  </div>
+</body>
+
+</html>
