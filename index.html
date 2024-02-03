@@ -4,39 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <title>Login Page</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <div class="background"
-    style="background-image: url('https://cdn.discordapp.com/attachments/1202302524888207441/1203001149397934090/zlLfpLY.png?ex=65cf8120&is=65bd0c20&hm=723cc0dec9d49dba16ec93859724d3f571139fa68a373277c32d708f4ccf9bbb&'); background-size: cover; background-position: center center;">
-    <header>
-      <h1>fedd.ing</h1>
-    </header>
-    <main>
-      <div class="auth-container">
-        <div class="login-form">
-          <!-- Login Form -->
-          <form action="login.php" method="post">
-            <h2>Login</h2>
-            <label for="login-username">Username:</label>
-            <input type="text" id="login-username" name="login-username" required>
-
-            <label for="login-password">Password:</label>
-            <input type="password" id="login-password" name="login-password" required>
-
-            <button type="submit">Login</button>
-          </form>
-        </div>
-      </div>
-    </main>
-
-    <footer>
-      <p>Join our discord server: https://discord.gg/seeking selling @fedd.ing emails © 2023 FEDD.ING All rights
-        reserved.</p>
-    </footer>
+<body style="background-image: url('https://cdn.discordapp.com/attachments/1202302524888207441/1203001149397934090/zlLfpLY.png?ex=65cf8120&is=65bd0c20&hm=723cc0dec9d49dba16ec93859724d3f571139fa68a373277c32d708f4ccf9bbb&'); background-position: center; background-size: cover;">
+  <div class="login-container">
+    <h1>fedd.ing login</h1>
+    <label for="password">???:</label>
+    <input type="password" id="password" name="Password">
+    <button onclick="checkPassword()">...</button>
   </div>
+
+  <script src="script.js"></script>
+  <footer>
+    <p>Join our discord server: https://discord.gg/seeking selling @fedd.ing emails © 2023 FEDD.ING All rights reserved.</p>
+  </footer>
 </body>
 
 </html>
