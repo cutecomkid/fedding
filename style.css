@@ -4,125 +4,52 @@ html, body {
   height: 100%;
 }
 
-/*-- index.html css --*/
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.login-background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url('https://cdn.discordapp.com/attachments/1202827782933970984/1203086567594401812/82299B11-10B9-4726-8D65-33C4769FB7E9.jpg?ex=65cfd0ad&is=65bd5bad&hm=1ea602b015cdae0fb5977ea5b1ff3c86e06ade0caa627ef8bcf2670e440554c7&');
-  background-size: cover;
-  background-position: center center;
-}
+/* Your existing CSS styles here */
 
 header {
-  text-align: center;
-  padding-top: 15px;
-  margin-bottom: 30px;
-  z-index: 1;
-}
-
-header h1 {
   margin: 0;
-  color: #000;
+  color: #ad7f00;
 }
 
-main {
+.auth-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  z-index: 1;
-}
-
-.login-container {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
+  height: 100vh; /* Full viewport height */
+  background: url('https://cdn.discordapp.com/attachments/1202302524888207441/1203001149397934090/zlLfpLY.png?ex=65cf8120&is=65bd0c20&hm=723cc0dec9d49dba16ec93859724d3f571139fa68a373277c32d708f4ccf9bbb&') center/cover no-repeat;
 }
 
-.login-box {
-  background-color: #000;
-  border: 2px solid #fff;
-  border-radius: 6px;
+.login-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
-  width: 300px;
+  max-width: 400px;
+  width: 100%;
   text-align: center;
 }
 
-.custom-dropdown {
-  position: relative;
-  display: inline-block;
+form label {
+  display: block;
+  margin-bottom: 5px;
 }
 
-.dropdown-trigger {
-  background-color: #000;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+form input {
+  width: calc(100% - 20px);
+  padding: 8px;
   margin-bottom: 10px;
-  position: relative;
 }
 
-select {
-  background-color: #000;
-  color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-  position: relative;
-}
-
-.dropdown-button {
-  background-color: #000;
+form button {
+  background-color: #333;
   color: #fff;
   padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 10px;
-  width: 100%;
 }
 
-.dropdown-button:hover {
-  background-color: #000;
-}
-
-.entry-button {
-  background-color: #000;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
-  width: 100%;
-}
-
-.entry-button:hover {
-  background-color: #121212;
-}
-
-.dropdown-label {
-  font-size: 20px;
-  font-weight: bold;
-  margin-right: 5px;
+form button:hover {
+  background-color: #555;
 }
 
 /*-- staff.html css --*/
@@ -198,7 +125,4 @@ footer {
   background-color: #000;
   color: #fff;
   padding: 10px;
-}
-  color: #473172;
-  font-weight: bold;
 }
