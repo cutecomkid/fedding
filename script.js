@@ -3,7 +3,7 @@ function checkPassword() {
   // Check if the entered password is correct
   if (enteredpassword === "iVeL3731$-1!") {
     //redirect to main page
-    window.location.href = "home.html";
+    window.location.href = "/home";
   } else {
     alert("ViLe1337!1-$ ;)");
   }
