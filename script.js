@@ -8,3 +8,8 @@ function checkPassword() {
     alert("ViLe1337!1-$ ;)");
   }
 }
+
+
+function joinDiscord() {
+  window.location.href = "https://discord.gg/seeking";
+}
