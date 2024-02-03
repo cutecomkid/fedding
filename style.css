@@ -1,45 +1,47 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-/* Your existing CSS styles here */
-
-header {
-  margin: 0;
-  color: #ad7f00;
-}
-
-.auth-container {
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  /* Set background color to black */
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
-  background: url('https://cdn.discordapp.com/attachments/1202302524888207441/1203001149397934090/zlLfpLY.png?ex=65cf8120&is=65bd0c20&hm=723cc0dec9d49dba16ec93859724d3f571139fa68a373277c32d708f4ccf9bbb&') center/cover no-repeat;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
-.login-form {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-  padding: 20px;
-  max-width: 400px;
-  width: 100%;
+.login-container {
   text-align: center;
+  background-color: #fff;
+  /* Set container background color to white */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  filter: grayscale(100%);
+  /* Convert to black and white */
 }
 
-form label {
+label {
   display: block;
-  margin-bottom: 5px;
-}
-
-form input {
-  width: calc(100% - 20px);
-  padding: 8px;
   margin-bottom: 10px;
+  color: #000;
+  /* Set label text color to black */
 }
 
-form button {
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
   background-color: #333;
   color: #fff;
   padding: 10px;
@@ -48,7 +50,7 @@ form button {
   cursor: pointer;
 }
 
-form button:hover {
+button:hover {
   background-color: #555;
 }
 
@@ -60,6 +62,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .background {
   position: absolute;
   width: 100%;
@@ -68,22 +71,26 @@ body {
   background-size: cover;
   background-position: center center;
 }
+
 header {
   text-align: center;
   padding-top: 10px;
   margin-bottom: 20px;
   z-index: 1;
 }
+
 header h2 {
   margin: 0;
   color: #c7ac00;
 }
+
 main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   z-index: 1;
 }
+
 .profile {
   flex: 0 0 auto;
   display: flex;
@@ -91,31 +98,38 @@ main {
   align-items: center;
   margin: 10px;
 }
+
 .profile img {
   border-radius: 50%;
   width: 100px;
   height: 100px;
   object-fit: cover;
 }
+
 .profile p {
   color: #fff;
   margin-top: 10px;
 }
+
 .profile:nth-child(odd),
 .profile:nth-child(even) {
   transform: scale(1);
 }
+
 .profile:hover {
   transform: scale(1.3);
 }
+
 .profile h3 {
   margin: 0;
   color: #460000;
 }
+
 .profile h4 {
   margin: 0;
   color: #201e54;
 }
+
 footer {
   position: fixed;
   bottom: 0;
