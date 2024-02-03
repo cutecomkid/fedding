@@ -2,42 +2,41 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>^,..,^</title>
-    <link rel="stylesheet" href="style.css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="login-background" style="background-image: url('https://cdn.discordapp.com/attachments/1202827782933970984/1203086567594401812/82299B11-10B9-4726-8D65-33C4769FB7E9.jpg?ex=65cfd0ad&is=65bd5bad&hm=1ea602b015cdae0fb5977ea5b1ff3c86e06ade0caa627ef8bcf2670e440554c7&'); background-size: cover; background-position: center center;">
-    
+  <div class="background"
+    style="background-image: url('https://cdn.discordapp.com/attachments/1202302524888207441/1203001149397934090/zlLfpLY.png?ex=65cf8120&is=65bd0c20&hm=723cc0dec9d49dba16ec93859724d3f571139fa68a373277c32d708f4ccf9bbb&'); background-size: cover; background-position: center center;">
     <header>
       <h1>fedd.ing</h1>
     </header>
-
     <main>
-      <div class="login-container">
-        <div class="login-box">
-          <div class="custom-dropdown">
-            <div class="dropdown-trigger">
-              <span class="dropdown-label">???</span>
-              <button class="dropdown-button">
-                <select id="user" name="user">
-                  <option value="boo">BOO!</option>            
-                </select>
-              </button>
-            </div>
-            <button class="entry-button" onclick="enterWebsite()">ok</button>
-          </div>
+      <div class="auth-container">
+        <div class="login-form">
+          <!-- Login Form -->
+          <form action="login.php" method="post">
+            <h2>Login</h2>
+            <label for="login-username">Username:</label>
+            <input type="text" id="login-username" name="login-username" required>
+
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="login-password" required>
+
+            <button type="submit">Login</button>
+          </form>
         </div>
       </div>
     </main>
-    
-    <script>
-        function enterWebsite() {
-          window.location.href = "/home";
-        }
-    </script>
+
+    <footer>
+      <p>Join our discord server: https://discord.gg/seeking selling @fedd.ing emails © 2023 FEDD.ING All rights
+        reserved.</p>
+    </footer>
+  </div>
 </body>
 
 </html>
