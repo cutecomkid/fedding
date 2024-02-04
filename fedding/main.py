@@ -5,12 +5,12 @@ from flask_bcrypt import Bcrypt
 from flask_session import Session
 
 postgres_db = os.environ.get('postgres_db')
-secret_key = os.environ.get('SECRET_KEY')
+secret_key = os.environ.get('session_key')
 
 app = Flask(__name__)
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SQLALCHEMY_DATABASE_URI'] = postgres_db
-app.config['SECRET_KEY'] = SECRET_KEY
+app.config['SECRET_KEY'] = session_key
 
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
