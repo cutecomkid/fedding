@@ -5,8 +5,8 @@ from flask_session import Session
 
 app = Flask(__name__)
 app.config['SESSION_TYPE'] = 'filesystem'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres_db'
-app.config['SECRET_KEY'] = 'SECRET_KEY'
+app.config['SQLALCHEMY_DATABASE_URI'] = postgres_db
+app.config['SECRET_KEY'] = SECRET_KEY
 
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
