@@ -10,7 +10,7 @@ secret_key = os.environ.get('session_key')
 app = Flask(__name__)
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SQLALCHEMY_DATABASE_URI'] = postgres_db
-app.config['SECRET_KEY'] = session_key
+app.config['SECRET_KEY'] = secret_key
 
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
