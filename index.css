@@ -1,0 +1,139 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body.home {
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.discordapp.com/attachments/1202302524888207441/1203001149397934090/zlLfpLY.png?ex=65cf8120&is=65bd0c20&hm=723cc0dec9d49dba16ec93859724d3f571139fa68a373277c32d708f4ccf9bbb&');
+  background-size: cover;
+  background-position: center center;
+}
+
+header {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+header h2 {
+  margin: 0;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100vh;
+  z-index: 1;
+  padding: 20px;
+}
+
+.profile {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.profile img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile:nth-child(odd),
+.profile:nth-child(even) {
+  transform: scale(1);
+}
+
+.profile:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.profile h3 {
+  margin: 0;
+  color: #460000;
+}
+
+.profile h5 {
+  margin: 0;
+  color: #201e54;
+}
+
+.profile h4 {
+  margin: 0;
+  color: #fff;
+}
+
+.profile h6 {
+  margin: 0;
+  color: #fff;
+}
+
+.profile button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+discord-button {
+  position: fixed;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90px;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-server {
+  background-color: #4c2262;
+  color: #fff;
+  border: none;
+  border-color: #fff;
+  padding: 5px; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.join-server:hover {
+  background-color: #4c2288;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
