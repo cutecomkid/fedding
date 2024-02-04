@@ -1,7 +1,11 @@
+import os
 from flask import Flask, render_template, request, redirect, url_for, flash, session, g
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_session import Session
+
+postgres_db = os.environ.get('postgres_db')
+secret_key = os.environ.get('SECRET_KEY')
 
 app = Flask(__name__)
 app.config['SESSION_TYPE'] = 'filesystem'
