@@ -1,0 +1,66 @@
+body {
+  background-image: url('https://cdn.discordapp.com/attachments/1202302524888207441/1203473630130868234/IMG_2686.webp?ex=65d13928&is=65bec428&hm=808c97bbc1b75a5fc6f3b6bdd0e7555d3745d8b7ef09747242da0a7061ed83b3&');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: Arial, sans-serif;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.signup-box {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #bbb;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: rgba(51, 51, 51, 0.5);
+  color: #fff;
+}
+
+input[type="button"] {
+  background-color: #1a1a1a;
+  color: #fff;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #fff;
+}
+
+a {
+  color: #6495ed;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
