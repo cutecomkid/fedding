@@ -8,9 +8,12 @@ body {
 }
 
 header {
-  background-color: #000000;
   padding: 10px 20px;
   text-align: center;
+}
+
+.ascii-text {
+  color: #ffffff;
 }
 
 .container {
@@ -39,13 +42,6 @@ header {
   display: block;
   width: 100%;
   height: auto;
-}
-
-.name {
-  color: #ffffff;
-  font-size: 14px;
-  margin-top: 20px;
-  text-align: center;
 }
 
 .email {
