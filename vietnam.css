@@ -2,15 +2,19 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #000000;
+  background-image: url("https://cdn.discordapp.com/attachments/1215750405871636502/1217930756580577472/2DF9D01A-6F53-4470-B11E-27FA4BBD2B26.gif?ex=6605d168&is=65f35c68&hm=cb5386b9e0a4f62676c2f1ae84401456b6c928a864834022146cac8eae3a44dd&");
+  background-size: cover;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #000000;
   padding: 10px 20px;
   text-align: center;
+}
+
+.ascii-text {
+  color: #ffffff;
 }
 
 .container {
@@ -67,4 +71,9 @@ header {
   font-size: 14px;
   margin-top: 20px;
   text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
 }
