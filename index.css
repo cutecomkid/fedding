@@ -2,12 +2,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #000000;
+    background-image: url("https://cdn.discordapp.com/attachments/1215750405871636502/1217938098881826816/39878993-32C6-468F-BD46-B667348F222E.gif?ex=6605d83e&is=65f3633e&hm=fbc45996110b3097c1b7ded20103d7c5f5dbd2328156be00295bd0c380503f15&");
+    background-size: cover;
+    overflow: hidden;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #000000;
     padding: 10px 20px;
     text-align: center;
 }
@@ -41,7 +42,7 @@ header {
   height: auto;
 }
 .vietnam-text {
-  color: #470000;
+  color: #ffffff;
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
