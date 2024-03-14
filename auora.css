@@ -1,0 +1,70 @@
+/* auora css */ 
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auora {
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  transition: width 0.3s, height 0.3s;
+}
+
+.auora:hover {
+  width: 220px;
+  height: 220px;
+}
+
+.auora img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.email {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.discord {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.telegram {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
