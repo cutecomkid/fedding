@@ -73,8 +73,6 @@ header {
   padding-left: 40px;
 }
 
-
-
 .gores-container {
   display: flex;
   flex-direction: column;
@@ -105,8 +103,6 @@ header {
   text-align: center;
   padding-left: 50px;
 }
-
-
 
 .auora-container {
   display: flex;
@@ -139,8 +135,6 @@ header {
   padding-left: 50px;
 }
 
-
-
 .bloodshed-container {
   display: flex;
   flex-direction: column;
@@ -170,4 +164,35 @@ header {
   margin-top: 10px;
   text-align: center;
   padding-left: 35px;
+}
+
+.vexko-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.vexko {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 95px;
+  height: 95px;
+}
+.vexko:hover {
+  width: 110px;
+  height: 110px;
+}
+.vexko img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.vexko-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+  padding-left: 50px;
 }
