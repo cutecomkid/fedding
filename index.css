@@ -1,40 +1,64 @@
 /* home.css */
 
 body {
-    font-family: Arial, sans-serif;
-    background-image: url("https://cdn.discordapp.com/attachments/1215750405871636502/1217938098881826816/39878993-32C6-468F-BD46-B667348F222E.gif?ex=6605d83e&is=65f3633e&hm=fbc45996110b3097c1b7ded20103d7c5f5dbd2328156be00295bd0c380503f15&");
-    background-size: cover;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("https://cdn.discordapp.com/attachments/1215750405871636502/1217938098881826816/39878993-32C6-468F-BD46-B667348F222E.gif?ex=6605d83e&is=65f3633e&hm=fbc45996110b3097c1b7ded20103d7c5f5dbd2328156be00295bd0c380503f15&");
+  background-size: cover;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
+
 header {
-    padding: 10px 20px;
-    text-align: center;
+  position: relative;
 }
+
 .ascii-container {
-    display: flex;
-    justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: fadeIn 2s forwards, flash 5s infinite 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
 }
 .ascii-art {
     color: white;
 }
+
 .vietnam-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .vietnam {
   text-align: center;
-  margin-top: 20px;
+  margin-left: 20px;
   border-radius: 50%;
   overflow: hidden;
-  width: 100px;
-  height: 100px;
+  width: 95px;
+  height: 95px;
 }
 .vietnam:hover {
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
 }
 .vietnam img {
   display: block;
@@ -46,23 +70,28 @@ header {
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
+  padding-left: 40px;
 }
+
+
+
 .gores-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .gores {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
   border-radius: 50%;
   overflow: hidden;
-  width: 100px;
-  height: 100px;
+  width: 95px;
+  height: 95px;
 }
 .gores:hover {
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
 }
 .gores img {
   display: block;
@@ -74,23 +103,28 @@ header {
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
+  padding-left: 50px;
 }
+
+
+
 .auora-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .auora {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
   border-radius: 50%;
   overflow: hidden;
-  width: 100px;
-  height: 100px;
+  width: 95px;
+  height: 95px;
 }
 .auora:hover {
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
 }
 .auora img {
   display: block;
@@ -102,23 +136,28 @@ header {
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
+  padding-left: 50px;
 }
+
+
+
 .bloodshed-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .bloodshed {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
   border-radius: 50%;
   overflow: hidden;
-  width: 100px;
-  height: 100px;
+  width: 95px;
+  height: 95px;
 }
 .bloodshed:hover {
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
 }
 .bloodshed img {
   display: block;
@@ -130,4 +169,5 @@ header {
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
+  padding-left: 35px;
 }
