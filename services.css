@@ -1,0 +1,28 @@
+/* services.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-text {
+  color: whitesmoke;
+  font-size: 14px;
+  text-align: center;
+  margin: 10px auto;
+  max-width: 400px;
+}
